@@ -38,10 +38,11 @@ The objective of the Helsinki Tomographic Challenge is to recover the shapes of 
  
 ## Training Details
 
+<p align="justify" markdown="1">
 Data: The given challenge data was partitioned into training and validation with the first four datasets (solid_disc_full, ta, tb, tc) for training and the last dataset (td) for validation. We have subsampled each dataset to create the training data for the different difficulty groups ranging from 181 views to 61 views. 
 
 Training: For the model with 181 views, training was done from scratch. For all other models, transfer learning was performed from this model. The number of epochs for training in each case was chosen as that corresponding to the minimum validation error. The model used was a deep UNet with 8 encoders and decoders. The training was performed with MSE loss and Adam optimizer with a batch size of 24. The checkpoints were shared at <a href="https://indianinstituteofscience-my.sharepoint.com/personal/rajisusanm_iisc_ac_in/_layouts/15/onedrive.aspx?login_hint=rajisusanm%40IISc%2Eac%2Ein&id=%2Fpersonal%2Frajisusanm%5Fiisc%5Fac%5Fin%2FDocuments%2FCheckpoints%5FHTC%5F2022">[checkpoints]</a> . Each checkpoints were named corresponding to the respective difficulty level/ group category. For example, the checkpoint for difficulty level 1 with 181 views was named as ‘1.tar’. 
-
+</p>
 ## Installation Instructions
 
 The environment.yml file used for testing the datasets was added to the repository as ‘environment.yml’. The testing code was shared in the repository as main.py
