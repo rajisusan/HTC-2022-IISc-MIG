@@ -49,7 +49,7 @@ Training: For the model with 181 views, training was done from scratch. For all 
 The environment.yml file used for testing the datasets was added to the repository as ‘environment.yml’. The testing code was shared in the repository as main.py.
 </p>
 
-## Usage:
+## Usage
 ```md
 python3 main.py --path_to_input_folder '/path/to/input/folder' --path_to_output_folder '/path/to/output/folder' --group_category 1 --load_path_netG '/path/to/Checkpoints'
 ```
