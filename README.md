@@ -37,7 +37,7 @@ The objective of the Helsinki Tomographic Challenge is to recover the shapes of 
 ### Training Details
 
 <p align="justify" markdown="1">
-Data: The given challenge data was partitioned into training and validation with the first four datasets (solid_disc_full, ta, tb, tc) for training and the last dataset (td) for validation. We have subsampled each dataset to create the training data for the different difficulty groups ranging from 181 views to 61 views. 
+Data: The given challenge data was partitioned into training and validation with the first four datasets (solid_disc_full, ta, tb, tc) for training and the last dataset (td) for validation. We have subsampled each dataset to create the training data for the different difficulty groups ranging from with view angles ranging from 181 views to 61 views. 
 </p>
 <p align="justify" markdown="1">
 Training: For the model with 181 views, training was done from scratch. For all other models, transfer learning was performed from this model. The model used was a deep UNet with 8 encoders and decoders. The training was performed with MSE loss and Adam optimizer with a batch size of 24. The checkpoints were shared at <a href="https://indianinstituteofscience-my.sharepoint.com/:f:/g/personal/rajisusanm_iisc_ac_in/EtC0RNiFsT1Kn_qCIQ3GD6kBNJwRYLqUYfx0bjcKjgNB5Q?e=qZGZh2
