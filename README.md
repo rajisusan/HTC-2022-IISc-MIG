@@ -24,11 +24,9 @@ The work flow of this approach can be explained as follows. Initially the limite
 
 <p align="center">
   <img src="https://github.com/rajisusan/CTC-2022-IISc-MIG/blob/main/Picture1.png">
-  <em>Figure 1: Schematic representation of the proposed reconstruction approach</em>
+  <em>Figure 1: Schematic representation of the proposed reconstruction approach.</em>
 </p>  
 
-
-##### Figure 1: Schematic representation of the proposed reconstruction approach.
 
 ## Helsinki Tomography Challenge 2022 (HTC 2022)
 
@@ -63,15 +61,15 @@ Two examples of the reconstructions from the training set are shown here. Figure
 
 <p align="center">
   <img src="https://github.com/rajisusan/CTC-2022-IISc-MIG/blob/main/Picture2.png">
+  <em>Figure 2: Segmented images obtained using the proposed reconstruction approach for dataset 'ta' with view angles beginning from 270 degrees.</em>
 </p>
 
-##### Figure 2: Segmented images obtained using the proposed reconstruction approach for dataset 'ta' with view angles beginning from 270 degrees.
 
 <p align="center">
   <img src="https://github.com/rajisusan/CTC-2022-IISc-MIG/blob/main/Picture3.png">
+  <em>Figure 3: Segmented images obtained using the proposed reconstruction approach for dataset 'tc' with view angles beginning from 0 degrees.</em>
 </p>
 
-##### Figure 3: Segmented images obtained using the proposed reconstruction approach for dataset 'tc' with view angles beginning from 0 degrees.
 
 #### References
 <p align="justify" markdown="1">
