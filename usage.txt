@@ -1,4 +1,4 @@
 python3 main.py --path_to_input_folder './input_data' --path_to_output_folder './output_data' --group_category 5 --load_path_netG './Checkpoints'
 
 
-* link to Checkpoints: https://indianinstituteofscience-my.sharepoint.com/personal/rajisusanm_iisc_ac_in/_layouts/15/onedrive.aspx?login_hint=rajisusanm%40IISc%2Eac%2Ein&id=%2Fpersonal%2Frajisusanm%5Fiisc%5Fac%5Fin%2FDocuments%2FCheckpoints%5FHTC%5F2022
+* link to Checkpoints: https://indianinstituteofscience-my.sharepoint.com/:f:/g/personal/rajisusanm_iisc_ac_in/EtC0RNiFsT1Kn_qCIQ3GD6kBNJwRYLqUYfx0bjcKjgNB5Q?e=qZGZh2
