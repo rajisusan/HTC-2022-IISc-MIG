@@ -42,7 +42,7 @@ Data: The given challenge data was partitioned into training and validation with
 </p>
 <p align="justify" markdown="1">
 Training: For the model with 181 views, training was done from scratch. For all other models, transfer learning was performed from this model. The model used was a deep UNet with 8 encoders and decoders. The training was performed with MSE loss and Adam optimizer with a batch size of 24. The checkpoints were shared at <a href="https://indianinstituteofscience-my.sharepoint.com/:f:/g/personal/rajisusanm_iisc_ac_in/EtC0RNiFsT1Kn_qCIQ3GD6kBNJwRYLqUYfx0bjcKjgNB5Q?e=qZGZh2
-">[Checkpoints]</a> . Each checkpoints were named corresponding to the respective difficulty level/ group category. For example, the checkpoint for difficulty level 1 with 181 views was named as ‘1.tar’. 
+">[Checkpoints]</a>. Each checkpoints were named corresponding to the respective difficulty level/ group category. For example, the checkpoint for difficulty level 1 with 181 views was named as ‘1.tar’. 
 </p>
 
 ## Installation Instructions
