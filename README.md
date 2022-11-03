@@ -2,20 +2,18 @@
 
 # Helsinki Tomography Challenge 2022 (HTC 2022) Submission
 
+## A Deep Learning based Back Project Filter Method for Limited Angle Computed Tomography
+
 #### *Ashish Verma, Raji Susan Mathew, Phaneendra K. Yalavarthy*
 
 ##### *Department of Computational and Data Sciences, IISc Bangalore, Karnataka, INDIA- 560012*
 
 
-## A Deep Learning based Back Project Filter Method for Limited Angle Computed Tomography
+### Proposed Approach
 
 <p align="justify" markdown="1">
 Computed tomography (CT) is an efficient imaging tool that plays an important role in medical diagnoses, industrial inspection, and security checks. The accurate reconstruction of a CT image requires the test object to be at least scanned under consecutive 180° or 180°+fan angles for parallel-beam or fan-beam geometries, respectively. In order to reduce the harmful radiation doses, the limited angle (LA) acquisition with decreased number of projection views becomes a more preferable choice in medical applications. However, with such acquisitions, the conventional CT reconstruction approaches such as filtered back projection (FBP) [1] and iterative reconstruction approaches exhibit limited angle artifacts. To overcome the difficulties associated with the above mentioned conventional CT reconstruction approaches, we propose a backproject filter based reconstruction wherein the deconvolution operation is performed using a convolutional neural network (CNN). 
 </p>
-
-
-
-### Proposed Approach
 
 <p align="justify" markdown="1">
 The work flow of this approach can be explained as follows. Initially the limited angle sinogram was back projected to obtain a blurred CT image. The back projected CT image was then fed to a deep symmetric encoder decoder architecture (UNet) [2] to obtain a CT image with reduced blurring. This image was forward projected to obtain a sinogram with an extended number of views (for example views corresponding to 180°+60°, i.e., 481 views were used throughout this approach). Then a simultaneous iterative reconstruction technique (SIRT) [3] was performed on the extended sinogram to obtain the final reconstruction. A schematic representation of the proposed approach is shown in Figure 1.  
