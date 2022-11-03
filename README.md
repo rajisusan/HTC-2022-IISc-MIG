@@ -24,6 +24,7 @@ The work flow of this approach can be explained as follows. Initially the limite
 
 <p align="center">
   <img src="https://github.com/rajisusan/CTC-2022-IISc-MIG/blob/main/Picture1.png">
+  <em>Figure 1: Schematic representation of the proposed reconstruction approach</em>
 </p>  
 
 
