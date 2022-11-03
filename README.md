@@ -2,9 +2,9 @@
 
 # Helsinki Tomography Challenge 2022 (HTC 2022) Submission
 
-#### Ashish Verma, Raji Susan Mathew, Phaneendra K. Yalavarthy
+#### *Ashish Verma, Raji Susan Mathew, Phaneendra K. Yalavarthy*
 
-##### Department of Computational and Data Sciences, IISc Bangalore, Karnataka, INDIA- 560012
+##### *Department of Computational and Data Sciences, IISc Bangalore, Karnataka, INDIA- 560012*
 
 
 ## A Deep Learning based Back Project Filter (BPF) Method for Limited Angle Computed Tomography
