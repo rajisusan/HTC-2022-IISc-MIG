@@ -58,9 +58,13 @@ python3 main.py --path_to_input_folder '/path/to/input/folder' --path_to_output_
 ## Sample Reconstructions
 
 <p align="justify" markdown="1">
-Present a few examples of the reconstructions from the training set.
+Two examples of the reconstructions from the training set are shown here. Figure 2 shows the segmentated images obtained using dataset 'ta' for the seven difficulty levels with the view_angles beginning from 270 degrees. Figure 3 shows the segmentated images obtained using dataset 'tc' for the seven difficulty levels with the view_angles beginning from 0 degrees. The scores of each reconstruction as obtained using Matthews correlation coefficient are shown in the insets. 
 </p>
 
+##### Figure 2: Segmented images obtained using the proposed reconstruction approach for dataset 'ta' with view angles beginning from 270 degrees.
+
+
+##### Figure 3: Segmented images obtained using the proposed reconstruction approach for dataset 'tc' with view angles beginning from 0 degrees.
 
 #### References
 <p align="justify" markdown="1">
