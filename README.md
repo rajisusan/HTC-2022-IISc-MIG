@@ -56,18 +56,18 @@ python3 main.py --path_to_input_folder '/path/to/input/folder' --path_to_output_
 ## Sample Reconstructions
 
 <p align="justify" markdown="1">
-Two examples of the reconstructions from the training set are shown here. Figure 2 shows the segmentated images obtained using the proposed approch for dataset 'ta' (for seven difficulty levels) with the view angles beginning from 270<sup>0</sup>. Figure 3 shows the segmentated images obtained using the proposed approch for dataset 'tc' (for the seven difficulty levels) with the view angles beginning from 0 degrees. The scores obtained using Matthews correlation coefficient for each reconstruction are shown in the insets. 
+Two examples of the reconstructions from the training set are shown here. Figure 2 shows the segmentated images obtained using the proposed approch for dataset 'ta' (for seven difficulty levels) with the view angles beginning from 270<sup>0</sup>. Figure 3 shows the segmentated images obtained using the proposed approch for dataset 'tc' (for the seven difficulty levels) with the view angles beginning from 0 <sup>0</sup>. The scores obtained using Matthews correlation coefficient for each reconstruction are shown in the insets. 
 </p>
 
 <p align="center">
   <img src="https://github.com/rajisusan/CTC-2022-IISc-MIG/blob/main/Picture2.png">
-  <em>Figure 2: Segmented images obtained using the proposed reconstruction approach for dataset 'ta' with view angles beginning from 270 degrees.</em>
+  <em>Figure 2: Segmented images obtained using the proposed reconstruction approach for dataset 'ta' with view angles beginning from 270<sup>0</sup>.</em>
 </p>
 
 
 <p align="center">
   <img src="https://github.com/rajisusan/CTC-2022-IISc-MIG/blob/main/Picture3.png">
-  <em>Figure 3: Segmented images obtained using the proposed reconstruction approach for dataset 'tc' with view angles beginning from 0 degrees.</em>
+  <em>Figure 3: Segmented images obtained using the proposed reconstruction approach for dataset 'tc' with view angles beginning from 0<sup>0</sup>.</em>
 </p>
 
 
