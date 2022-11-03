@@ -61,13 +61,13 @@ Two examples of the reconstructions from the training set are shown here. Figure
 
 <p align="center">
   <img src="https://github.com/rajisusan/CTC-2022-IISc-MIG/blob/main/Picture2.png">
-  <em>Figure 2: Segmented images obtained using the proposed reconstruction approach for dataset 'ta' with view angles beginning from 270<sup>0</sup>.</em>
+  <em>Figure 2: Segmented images obtained using the proposed reconstruction approach for dataset 'ta' with view angles beginning from 270<sup>0</sup>. </em>
 </p>
 
 
 <p align="center">
   <img src="https://github.com/rajisusan/CTC-2022-IISc-MIG/blob/main/Picture3.png">
-  <em>Figure 3: Segmented images obtained using the proposed reconstruction approach for dataset 'tc' with view angles beginning from 0<sup>0</sup>.</em>
+  <em>Figure 3: Segmented images obtained using the proposed reconstruction approach for dataset 'tc' with view angles beginning from 0<sup>0</sup>. </em>
 </p>
 
 
