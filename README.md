@@ -2,7 +2,7 @@
 
 # Helsinki Tomography Challenge 2022 (HTC 2022) Submission
 
-## Ashish Verma, Raji Susan Mathew, Phaneendra K. Yalavarthy
+#### Ashish Verma, Raji Susan Mathew, Phaneendra K. Yalavarthy
 
 Department of Computational and Data Sciences, IISc Bangalore,
  Karnataka, INDIA- 560012
@@ -61,7 +61,7 @@ Present a few examples of the reconstructions from the training set.
 </p>
 
 
-### References
+#### References
 <p align="justify" markdown="1">
 [1]  L. A. Feldkamp, L. C. Davis, and J. W. Kress, “Practical cone-beam algorithm,” Journal of the Optical Society of America A, vol. 1, no. 6, pp. 612–619, 6 1984.
 </p>
