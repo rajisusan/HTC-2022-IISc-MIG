@@ -16,7 +16,7 @@ Computed tomography (CT) is an efficient imaging tool that plays an important ro
 
 
 
-## Proposed Approach
+### Proposed Approach
 
 <p align="justify" markdown="1">
 The work flow of this approach can be explained as follows. Initially the limited angle sinogram was back projected to obtain a blurred CT image. The back projected CT image was then fed to a deep symmetric encoder decoder architecture (UNet) [2] to obtain a CT image with reduced blurring. This image was forward projected to obtain a sinogram with an extended number of views (for example views corresponding to 180°+60°, i.e., 481 views were used throughout this approach). Then a simultaneous iterative reconstruction technique (SIRT) [3] was performed on the extended sinogram to obtain the final reconstruction. A schematic representation of the proposed approach is shown in Figure 1.  
@@ -28,7 +28,7 @@ The work flow of this approach can be explained as follows. Initially the limite
 </p>  
 
 
-### Figure 1: Schematic representation of the proposed reconstruction approach.
+##### Figure 1: Schematic representation of the proposed reconstruction approach.
 
 ## Helsinki Tomography Challenge 2022 (HTC 2022)
 
@@ -36,7 +36,7 @@ The work flow of this approach can be explained as follows. Initially the limite
 The objective of the Helsinki Tomographic Challenge is to recover the shapes of 2D targets imaged with LA acquisitions, collected in the Industrial Mathematics Computed Tomography Laboratory at the University of Helsinki, Finland [4]. The targets are homogenous acrylic disc phantoms of 70mm in diameter, with a different number of irregular holes in random locations. The expected outcome of the challenge should be an algorithm which takes in the X-ray data, i.e., the sinogram and its associated metadata about the measurement geometry, and produces a reconstruction which has been segmented into two components: air and plastic. The challenge data have been scanned using full-angle tomography, and have been appropriately subsampled to create the training data for the different difficulty groups ranging from 181 views to 61 views.   
 </p>
  
-## Training Details
+### Training Details
 
 <p align="justify" markdown="1">
 Data: The given challenge data was partitioned into training and validation with the first four datasets (solid_disc_full, ta, tb, tc) for training and the last dataset (td) for validation. We have subsampled each dataset to create the training data for the different difficulty groups ranging from 181 views to 61 views. 
@@ -61,7 +61,7 @@ Present a few examples of the reconstructions from the training set.
 </p>
 
 
-## References
+### References
 <p align="justify" markdown="1">
 [1]  L. A. Feldkamp, L. C. Davis, and J. W. Kress, “Practical cone-beam algorithm,” Journal of the Optical Society of America A, vol. 1, no. 6, pp. 612–619, 6 1984.
 </p>
