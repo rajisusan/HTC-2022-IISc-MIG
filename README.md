@@ -32,8 +32,10 @@ The work flow of this approach can be explained as follows. Initially the limite
 
 ## Helsinki Tomography Challenge 2022 (HTC 2022)
 
-The objective of the Helsinki Tomographic Challenge is to recover the shapes of 2D targets imaged with LA acquisitions, collected in the Industrial Mathematics Computed Tomography Laboratory at the University of Helsinki, Finland [4]. The targets are homogenous acrylic disc phantoms of 70mm in diameter, with a different number of irregular holes in random locations. The expected outcome of the challenge should be an algorithm which takes in the X-ray data, i.e., the sinogram and its associated metadata about the measurement geometry, and produces a reconstruction which has been segmented into two components: air and plastic. The challenge data have been scanned using full-angle tomography, and have been appropriately subsampled to create the training data for the different difficulty groups ranging from 181 views to 61 views.  
-
+<p align="justify" markdown="1">
+The objective of the Helsinki Tomographic Challenge is to recover the shapes of 2D targets imaged with LA acquisitions, collected in the Industrial Mathematics Computed Tomography Laboratory at the University of Helsinki, Finland [4]. The targets are homogenous acrylic disc phantoms of 70mm in diameter, with a different number of irregular holes in random locations. The expected outcome of the challenge should be an algorithm which takes in the X-ray data, i.e., the sinogram and its associated metadata about the measurement geometry, and produces a reconstruction which has been segmented into two components: air and plastic. The challenge data have been scanned using full-angle tomography, and have been appropriately subsampled to create the training data for the different difficulty groups ranging from 181 views to 61 views.   
+</p>
+ 
 ## Training Details
 
 Data: The given challenge data was partitioned into training and validation with the first four datasets (solid_disc_full, ta, tb, tc) for training and the last dataset (td) for validation. We have subsampled each dataset to create the training data for the different difficulty groups ranging from 181 views to 61 views. 
