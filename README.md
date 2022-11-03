@@ -18,7 +18,10 @@ Computed tomography (CT) is an efficient imaging tool that plays an important ro
 
 ## Proposed Approach
 
-The work flow of this approach can be explained as follows. Initially the limited angle sinogram was back projected to obtain a blurred CT image. The back projected CT image was then fed to a deep symmetric encoder decoder architecture (UNet) [2] to obtain a CT image with reduced blurring. This image was forward projected to obtain a sinogram with an extended number of views (for example views corresponding to 180°+60°, i.e., 481 views were used throughout this approach). Then a simultaneous iterative reconstruction technique (SIRT) [3] was performed on the extended sinogram to obtain the final reconstruction. A schematic representation of the proposed approach is shown in Figure 1. 
+<p align="justify" markdown="1">
+The work flow of this approach can be explained as follows. Initially the limited angle sinogram was back projected to obtain a blurred CT image. The back projected CT image was then fed to a deep symmetric encoder decoder architecture (UNet) [2] to obtain a CT image with reduced blurring. This image was forward projected to obtain a sinogram with an extended number of views (for example views corresponding to 180°+60°, i.e., 481 views were used throughout this approach). Then a simultaneous iterative reconstruction technique (SIRT) [3] was performed on the extended sinogram to obtain the final reconstruction. A schematic representation of the proposed approach is shown in Figure 1.  
+</p>
+
 
 <p align="center">
   <img src="https://github.com/rajisusan/CTC-2022-IISc-MIG/blob/main/Picture1.png">
