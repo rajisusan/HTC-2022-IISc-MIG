@@ -10,7 +10,11 @@ Department of Computational and Data Sciences, IISc Bangalore,
 
 ## A Deep Learning based Back Project Filter (BPF) Method for Limited Angle Computed Tomography
 
+<p align="justify" markdown="1">
 Computed tomography (CT) is an efficient imaging tool that plays an important role in medical diagnoses, industrial inspection, and security checks. The accurate reconstruction of a CT image requires the test object to be at least scanned under consecutive 180° or 180°+fan angles for parallel-beam or fan-beam geometries, respectively. In order to reduce the harmful radiation doses, the limited angle (LA) acquisition with decreased number of projection views becomes a more preferable choice in medical applications. However, with such acquisitions, the conventional CT reconstruction approaches such as filtered back projection (FBP) [1] and iterative reconstruction approaches exhibit limited angle artifacts. To overcome the difficulties associated with the above mentioned conventional CT reconstruction approaches, we propose a backproject filter based reconstruction wherein the deconvolution operation is performed using a convolutional neural network (CNN). 
+</p>
+
+
 
 ## Proposed Approach
 
