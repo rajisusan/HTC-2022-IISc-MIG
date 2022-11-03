@@ -46,7 +46,7 @@ Training: For the model with 181 views, training was done from scratch. For all 
 
 ## Installation Instructions
 <p align="justify" markdown="1">
-The environment.yml file used for testing the datasets was added to the repository as *‘environment.yml’*. The testing code was shared in the repository as *main.py*.
+The environment.yml file used for testing the datasets was added to the repository as ‘environment.yml’. The testing code was shared in the repository as main.py.
 </p>
 
 ## Usage:
