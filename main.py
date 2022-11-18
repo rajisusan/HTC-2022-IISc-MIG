@@ -160,7 +160,7 @@ if __name__ == "__main__":
         # Get init_view of LA sino
         #init_view = get_init_view_frm_fname(fname_str=fname_groundtruth_sino)
         
-        test_gtrue_sino_tensor=test_gtrue_sino_tensor[:,init_view:init_view+opt.num_ltd_views]
+        #test_gtrue_sino_tensor=test_gtrue_sino_tensor[:,init_view:init_view+opt.num_ltd_views]
         print('test_gtrue_sino_tensor Shape', test_gtrue_sino_tensor.shape)
 
         lamino_2d_np_arr = get_backprojection(input_sino_npy_arr=test_gtrue_sino_tensor.cpu().detach().numpy(),
